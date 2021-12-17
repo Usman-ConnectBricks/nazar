@@ -176,7 +176,7 @@ class Home extends Component {
                           fontWeight: "normal"
                         }}
                       >
-                        NAZAR
+                        USMAN
                       </Text>
                       <Text
                         style={{

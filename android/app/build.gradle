@@ -95,7 +95,7 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+  //  buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.speks.nazar"
@@ -154,6 +154,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-camera')
     //implementation project(':react-native-tensorflow')
     implementation (project(':react-native-camera')) {
         exclude group: "com.google.android.gms"
